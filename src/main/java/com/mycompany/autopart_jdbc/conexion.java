@@ -18,7 +18,7 @@ public class conexion {
 
         String url = "jdbc:mysql://localhost:3306/auto_part";
         String user = "root";
-        String password = "3070188smg";
+        String password = "";
 
         Connection con = DriverManager.getConnection(url, user, password);
 
